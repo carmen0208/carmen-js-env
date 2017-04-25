@@ -133,3 +133,54 @@ bable-preset-latest-minimal| Feature Detection
 
 
 ##### Setup Babel
+
+## Bundling
+
+##### Module Formats
+
+
+* Global(verybad)(past)
+```javascript
+myGlobal;
+```
+* IIFE(past)
+```javascript
+(function() {
+  //my code here
+})();
+```
+* Asynchronous Module Definition (AMD)(past)
+```javascript
+define(['jq'], function(jq) {});
+```
+* CommonJS(CJS)
+```javascript
+var jquery = require('jquery');
+```
+* Universal Module Definition(UMD)
+
+* ES6 Modules
+```javascript
+import jQuery from 'jquery';
+```
+
+#### Choose a Bundler
+
+* RequireJS(AMD)（past)
+* Browserify(Simple)
+  * The first bundler to reach mass adoption
+  * Bundle npm package for the web
+  * Large plugin ecosystem
+* webpack(Comprehensive)
+  * Bundles more than just JS
+  * Import CSS, images, etc like JS
+  * Built in hot-reloading web server
+* Rollup(Tree-shaking, performance)
+  * Tree shaking
+  * Faster loading Production code
+* JSPM(runtime loader, package manager)
+  * Uses SystemJS, a universal module loader
+  * Can load module at runtime
+  * Has its own package Manager
+
+##### Webpack(demo)
