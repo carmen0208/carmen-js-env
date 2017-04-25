@@ -94,3 +94,42 @@ package.json
 npm start
 npm run security-check
 ```
+
+### Transpile? -Babel
+
+* Babel
+  * Modern, standards-based JS, today
+  * Write standardized JS
+  * Leverage full JS Ecosystem
+  * Use experimental feature earlier
+  * No type defs, annotations requires
+  * ES6 imports are statically analyzable
+* TypeScript
+  * Superset of Javascript
+  * Enhanced autocomplete
+  * Additional non-standard feature
+* Elm
+  * compile down to JS
+  * Clean Syntax
+  * Immutable data structures
+  * Friendly errors
+  * All-errors are compile-time errors
+  * Interops with JS
+
+#### Babel Configuration Sytle
+
+
+* .babelrc
+  * not npm specific
+  * easier to read since isolated
+* package.json
+
+##### Transpile for you environment
+
+Preset | Approach
+---|---
+babel-preset-es2015-node| Version Detection
+bable-preset-latest-minimal| Feature Detection
+
+
+##### Setup Babel
