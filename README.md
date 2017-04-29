@@ -184,3 +184,53 @@ import jQuery from 'jquery';
   * Has its own package Manager
 
 ##### Webpack(demo)
+
+## Linter
+
+### Why Linter
+
+* Enforce Consistency
+  * Curly brace position
+  * confirm / alert
+  * Trailing commas
+  * Globals
+  * eval
+* Avoid Mistakes
+  * Extra parenthesis
+  * Overwriting function
+  * Assignment in conditional
+  * Missing default case in swith
+  * debugger /console.log
+
+#### Pick a Linter
+* JSLinter
+* JSHint
+* ESLint(facto standard)
+
+## Configuring ESLint
+* config Formats
+* Which built-in rules
+* warning or errors
+* Which plugins
+  * [[Awesome ESLine|https://github.com/dustinspecker/awesome-eslint]]
+* Use preset instead
+
+### Watching files with ESLint
+* eslint-loader(webpack)
+* eslint-watch
+  * ESLint wrapper that adds file watch
+  * Not tied to webpack
+  * Better warning / error formatting
+  * Display clean message
+  * Easily lint tests and build scripts too
+
+### Babel-eslint
+
+#### demo
+* Setup ESLint
+  * bit.ly/jsdeveslint
+
+```sh
+npm run lint:watch
+npm start
+```
