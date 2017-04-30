@@ -46,6 +46,8 @@ folder: buildScripts/srcServer.js
 ```sh
 node buildScripts/srcServer.js
 ```
+
+****
 ## Sharing work in progress
 
 * localtunnel (Easiest setup, Ultra-versatile)
@@ -61,6 +63,7 @@ lt --port 300 --subdomain carmen
 
 * extra: maybe Browsersyn + localtunnel
 
+****
 ## Automation
 
 * Grunt
@@ -81,7 +84,7 @@ lt --port 300 --subdomain carmen
   * Convention-based pre/host hooks
   * Leverage world's largest package manager
 
-####NPM Scripts
+#### NPM Scripts
 
 package.json
 ```javascipt
@@ -134,6 +137,7 @@ bable-preset-latest-minimal| Feature Detection
 
 ##### Setup Babel
 
+****
 ## Bundling
 
 ##### Module Formats
@@ -185,6 +189,7 @@ import jQuery from 'jquery';
 
 ##### Webpack(demo)
 
+****
 ## Linter
 
 ### Why Linter
@@ -255,3 +260,54 @@ npm start
 ## Continuous Integration
 
 * [[Travis CI|https://travis-ci.org/carmen0208/carmen-js-env/settings]]
+
+****
+## HTTP Calls
+* Making HTTP Calls
+* Mocking HTTP Calls
+  * Why mock？
+  * Mocking Approaches
+  * Generate mock data and mock API
+
+#### HTTP Call Approaches
+* Node
+  * http
+  * request
+* Browser
+  * XMLHttpRequest
+  * JQuery
+  * Framework-based
+  * Fetch
+* Node & Browser
+  * isomorphic-fetch
+  * xhr
+  * SuperAgent
+  * Axios
+
+#### Centralize API Call！
+#### Demo: fetch
+#### Why send a polyfill to everyone?
+
+* **Polyfill** :In web development, a polyfill (or polyfiller) is additional code which provides facilities that are not built into a web browser
+
+#### Mock HTTP
+* Nock(unit test)
+* Static JSON
+* Create development WebServer
+  * api-mock
+  * JSON server
+  * [[JSON Schema faker|https://www.npmjs.com/package/json-schema-faker]]
+  * Browsersync
+
+#### Demo
+1. Declare our schema:
+  * [[JSON Schema faker|https://www.npmjs.com/package/json-schema-faker]]
+2. Generate Random Data:
+  * [[faker.js|https://github.com/Marak/faker.js]]
+  * [[chance.js|http://chancejs.com/]]
+  * randexp.js
+3. Server Data via API
+  * [[JSON Server|https://github.com/typicode/json-server]]
+
+* http://json-schema.org/
+* http://json-schema-faker.js.org/#gist/d9e27543d84157c1672f87e93ac250cc demo of how data would be using JSON Faker
