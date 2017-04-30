@@ -234,3 +234,24 @@ import jQuery from 'jquery';
 npm run lint:watch
 npm start
 ```
+
+## Testing and Continuous Integration
+* Testing Framwork(Mocha)
+* Assertion Library(Chai)
+* Helper Libraries: JSDOM
+* Where to run test? (Node)
+  * Browser
+    * Karma, Testem
+  * Headless Browser  
+    * PhantomJS
+  * In-memory DOM
+    * JSDOM
+* Where should I put my test?
+  * Centralized
+  * Alongside
+* When to run test
+  * Upon save
+
+## Continuous Integration
+
+* [[Travis CI|https://travis-ci.org/carmen0208/carmen-js-env/settings]]
