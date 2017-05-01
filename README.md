@@ -316,3 +316,28 @@ npm start
 npm run generate-mock-data
 npm run start-mockapi
 ```
+
+## Project Structures
+
+## Production Build
+#### Minification/ Sourcemaps
+* Shorten variable and function names
+* Remove comments
+* Removes whitespace and new lines
+* Dead code elimination /Tree-shaking
+```sh
+npm start -s
+http://localhost:3000/
+http://localhost:3000/?userMockApi=true
+npm run build -s
+
+```
+
+#### Dynamic html
+* Reference bundles automatically
+* Handle dynamic bundle names
+* Inject production only resources
+* Minify
+#### Cache busting
+#### Bundle splitting
+#### Error Logging
