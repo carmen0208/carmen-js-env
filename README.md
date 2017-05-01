@@ -333,7 +333,7 @@ npm run build -s
 
 ```
 
-#### Dynamic html /Cache busting
+#### Dynamic html
 * Reference bundles automatically
 * Handle dynamic bundle names
 * Inject production only resources
@@ -342,5 +342,10 @@ npm run build -s
 #### Bundle splitting
 * Speed initial page load
 * Avoid re-downloading all Libraries
+
+```sh
+(main.js, vendor.js)
+```
+#### Cache busting
 
 #### Error Logging
