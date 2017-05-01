@@ -347,5 +347,14 @@ npm run build -s
 (main.js, vendor.js)
 ```
 #### Cache busting
+* Save http requests
+* Force request for latest version
+
+****
+
+1. hash bundle filename
+2. Generate HTML dynamically
+
+
 
 #### Error Logging
