@@ -355,6 +355,20 @@ npm run build -s
 1. hash bundle filename
 2. Generate HTML dynamically
 
-
-
 #### Error Logging
+* TrackJS
+* Sentry
+* New Relic
+* Raygun
+
+###### What to look for
+* Error Metadata
+  * Browser
+  * Stack trace
+  * Previous actions
+  * Custom API for enhanced tracking
+* Notification & Integration
+* Analytics and filtering
+* Pricing
+
+###### Demo-- track.js
