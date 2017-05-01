@@ -311,3 +311,8 @@ npm start
 
 * http://json-schema.org/
 * http://json-schema-faker.js.org/#gist/d9e27543d84157c1672f87e93ac250cc demo of how data would be using JSON Faker
+
+```sh
+npm run generate-mock-data
+npm run start-mockapi
+```
